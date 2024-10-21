@@ -1,0 +1,15 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "chrome",
+            "request": "launch",
+            "name": "使用360浏览器启动",
+            "url": "http://localhost:5500",
+            "webRoot": "${workspaceFolder}",
+            "runtimeExecutable": "C:\\Program Files (x86)\\360\\360se6\\Application\\360se.exe",
+            "runtimeArgs": ["--remote-debugging-port=9222"],
+            "userDataDir": false
+        }
+    ]
+}
